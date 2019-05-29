@@ -1,0 +1,9 @@
+.checklist{
+ white-space:pre-wrap;
+ word-break:break-all;
+ font-family: monospace;
+}
+[data-checked]{cursor:pointer}
+[data-checked]:hover{color:#f26}
+[data-checked="true"]{color:white}
+[data-checked=""]{color:#456}
